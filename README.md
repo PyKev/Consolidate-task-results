@@ -1,4 +1,4 @@
-# Consolidación de Resultados de Tareas - Instrucciones de Uso
+# Consolidación de Resultados de Tareas
 
 Este repositorio contiene un script de Python "Consolidar_resultados.py" que te permitirá consolidar los resultados de tareas de un archivo Excel. El código tomará el archivo "archivo.xlsx", el cual debe tener dos columnas: "IDTAREA" y "RESULTADO". Luego generará un nuevo archivo de Excel llamado "archivo2.xlsx" con los resultados consolidados.
 
