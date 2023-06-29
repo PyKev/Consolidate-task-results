@@ -1,16 +1,16 @@
-# Consolidación de Resultados de Tareas
+# Task Results Consolidation
 
-Este repositorio contiene un script de Python "Consolidar_resultados.py" que te permitirá consolidar los resultados de tareas de un archivo Excel. El código tomará el archivo "archivo.xlsx", el cual debe tener dos columnas: "IDTAREA" y "RESULTADO". Luego generará un nuevo archivo de Excel llamado "archivo2.xlsx" con los resultados consolidados.
+This repository contains a Python script called "Consolidate_results.py" that allows you to consolidate task results from an Excel file. The code takes the "file.xlsx" file as input, which should have two columns: "TASKID" and "RESULT". It will then generate a new Excel file called "file2.xlsx" with the consolidated results.
 
-## Requisitos
+## Requirements
 - Python
-- Librerias pandas y numpy `pip install pandas numpy`
+- Pandas and Numpy libraries `pip install pandas numpy`
 
-## Uso
-- Debe crear un archivo archivo.xlsx y colocarlo en la misma carpeta que el script de Python.
-- Ejecuta el script Consolidar_resultados.py.
-- Una vez que se ejecute el script, se generará un nuevo archivo de Excel llamado archivo2.xlsx.
-- Abre el archivo archivo2.xlsx para ver los resultados consolidados. En la columna "Texto" se mostrará la consolidación de los resultados de cada tarea, siguiendo el formato "R1, R2 y R3", "R1, R2, R3 y R4" ... si hay más de dos resultados, o "R1 y R2" si hay exactamente dos resultados. Se separarán los resultados con una coma a excepción del último que irá con la letra "y".
+## Usage
+- Create an "file.xlsx" file and place it in the same folder as the Python script.
+- Run the Consolidate_results.py script.
+- Once the script is executed, a new Excel file called "file2.xlsx" will be generated.
+- Open the file "file2.xlsx" to view the consolidated results. The "Text" column will display the consolidation of the results for each task, following the format "R1, R2, and R3", "R1, R2, R3, and R4" ... if there are more than two results, or "R1 and R2" if there are exactly two results. The results will be separated by commas, except for the last one, which will be preceded by the word "and".
 
-## Consideraciones
-- Si deseas utilizar un archivo diferente, puedes modificar el nombre del archivo en el código antes de ejecutarlo.
+## Considerations
+- If you want to use a different file, you can modify the file name in the code before executing it.
