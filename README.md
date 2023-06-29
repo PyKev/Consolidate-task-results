@@ -1,6 +1,6 @@
 # Task Results Consolidation
 
-This repository contains a Python script called "Consolidate_results.py" that allows you to consolidate task results from an Excel file. The code takes the "file.xlsx" file as input, which should have two columns: "TASKID" and "RESULT". It will then generate a new Excel file called "file2.xlsx" with the consolidated results.
+This repository contains a Python script called "Consolidar_resultados.py" that allows you to consolidate task results from an Excel file. The code takes the "file.xlsx" file as input, which should have two columns: "TASKID" and "RESULT". It will then generate a new Excel file called "file2.xlsx" with the consolidated results.
 
 ## Requirements
 - Python
